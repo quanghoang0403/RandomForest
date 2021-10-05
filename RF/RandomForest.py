@@ -62,7 +62,10 @@ class RandomForestModel:
             with open('./Dataset/final.csv', 'a', newline='') as f:
                 writer = csv.writer(f)
                 convert_row = self.nlpModel.ConvertRow(position, item, pre, Extension.GetLabelTraining(self.data))
-                result = self.Predict(convert_row)[0]
+                if (convert_row == 1 or convert_row == 2 or convert_row == 3):
+                    result = convert_row
+                else:
+                    result = self.Predict(convert_row)[0]
                 writer.writerow([id_sentences, title, id_bug, id_comment, position, item, pre, result])
                 pre = result
             id_sentences+=1
