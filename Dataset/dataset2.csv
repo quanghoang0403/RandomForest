@@ -1,0 +1,89 @@
+id_sentence,title,id_bug,id_comment,position,content,preP,result
+1,Can not export a project Android in Eclipse to archive file after remove folder .svn,1,1,0.166666667,I have a project Android in Eclipse + SVN server.,0,1
+2,Can not export a project Android in Eclipse to archive file after remove folder .svn,1,1,0.333333333,After i delete some files in .svn or .svn folder.,1,1
+3,Can not export a project Android in Eclipse to archive file after remove folder .svn,1,1,0.5,"I can not export the projet to Archive file. The error notification: ""cann't file the file * in the folder .svn ...""",1,1
+4,Can not export a project Android in Eclipse to archive file after remove folder .svn,1,2,0.666666667,"You should start by right clicking your project, choosing the team menu and then disconnect.",1,2
+5,Can not export a project Android in Eclipse to archive file after remove folder .svn,1,2,0.833333333,After you've done that remove those folders and try your export.,2,2
+6,Can not export a project Android in Eclipse to archive file after remove folder .svn,1,3,1,Thanks for your help,2,3
+7,"Can not start Eclipse code, return exit code 13",2,1,0.166666667,"After first trying to start Eclipse without any parameters to specify the Java VM, I got an error message saying it couldn't find a Java VM called javaw.exe inside the Eclipse folder, so I found where Java was installed and specified that location as the parameter in the shortcut's target. ",0,1
+8,"Can not start Eclipse code, return exit code 14",2,1,0.333333333,"Now I get a different error, Java was started but returned exit code=13.",1,1
+9,"Can not start Eclipse code, return exit code 15",2,1,0.5,"If anyone knows how to confirm that my Eclipse and Java are 64-bit, that'd be appreciated.",1,1
+10,"Can not start Eclipse code, return exit code 16",2,2,0.666666667,"However, the version of Java that it's picking up is 32-bit, as indicated by where it is coming from, on this line:",1,2
+11,"Can not start Eclipse code, return exit code 17",2,2,0.833333333,"If it's doesn't work for you, you'll need to upgrade your JDK (to the Java versions - 8 in this case).",2,2
+12,"Can not start Eclipse code, return exit code 18",2,3,1,It really works!!!,2,3
+13,Windows 10 won't do a restart,3,1,0.166666667,I installed Windows 10 as an upgrade and ever since my computer will not do a restart.,0,1
+14,Windows 10 won't do a restart,3,1,0.333333333,"Whenever I try a restart, the computer idles down then just hangs there with fans running and blank screen. ",1,1
+15,Windows 10 won't do a restart,3,1,0.5,"The only way I can restart it is to press the reset button on the front panel after it idles down, or shut Windows down and power up from scratch.",1,1
+16,Windows 10 won't do a restart,3,2,0.666666667,"Go to ""Power and Sleep"" settings. Tell the computer to Never sleep.",1,2
+17,Windows 10 won't do a restart,3,2,0.833333333,Shut down computer and reboot.,2,2
+18,Windows 10 won't do a restart,3,3,1,Success at last!!,2,3
+19,Keyboard Won�t Type,4,1,0.166666667,I can not type anything with your keyboard?,0,1
+20,Keyboard Won�t Type,4,1,0.333333333,That is really bothersome and frustrating.,1,3
+21,Keyboard Won�t Type,4,2,0.5,"Once your keyboard is not working, you can firstly restart your computer.",3,2
+22,Keyboard Won�t Type,4,2,0.666666667,A simple restart can always solve computer woes.,2,2
+23,Keyboard Won�t Type,4,2,0.833333333,"Without a keyboard, you can use your mouse to restart your computer.",2,2
+24,Keyboard Won�t Type,4,3,1,okee thank you so much,2,3
+25,Mouse Left-Click Button Not Working,5,1,0.166666667,"My cursor can move, but can't click on anything but the program I am on.",0,1
+26,Mouse Left-Click Button Not Working,5,1,0.333333333,"Not on the toolbar, not on the Windows logo, not on any program, just Google Chrome right now. ",1,1
+27,Mouse Left-Click Button Not Working,5,2,0.5,"Immediately after turning on the computer, or restarting it (usually after you hear your computer beep), tap the F8 key, repeatedly, in 1 second intervals.",1,2
+28,Mouse Left-Click Button Not Working,5,2,0.666666667,"Next the ""Advanced Boot Options"" menu will appear.",2,2
+29,Mouse Left-Click Button Not Working,5,2,0.833333333,"In the ""Advanced Boot Options"" menu use the arrow keys to select ""Safe Mode"" or ""Safe Mode with Networking"" and press ENTER.",2,2
+30,Mouse Left-Click Button Not Working,5,3,1,"This worked for me, thanks",2,3
+31,Can not set a Config value in Laravel 8,6,1,0.166666667,I'm trying to save site setting variables into the config/settings.php file.,0,1
+32,Can not set a Config value in Laravel 9,6,1,0.333333333,I can get those values but I'm unable to set one using,1,1
+33,Can not set a Config value in Laravel 10,6,1,0.5,Is there any alternative to achieve what I want?,1,1
+34,Can not set a Config value in Laravel 11,6,2,0.666666667,Build yourself a custom helper for a settings wrapper so you can query it like you query the config.,1,2
+35,Can not set a Config value in Laravel 12,6,2,0.833333333,Migrate yourself a settings table with columns that you wish to edit,2,2
+36,Can not set a Config value in Laravel 13,6,3,1,It worked as expected,2,3
+37,App not setup: This app is still in development mode,7,1,0.166666667,"when I try to login, I go to the Facebook app, it asks me to login which I do and then I get report message",0,1
+38,App not setup: This app is still in development mode,7,1,0.333333333,Any help is much appreciated.,1,3
+39,App not setup: This app is still in development mode,7,1,0.5,I am using SeattleClouds and this happens on both iOS and Android.,3,1
+40,App not setup: This app is still in development mode,7,2,0.666666667,Go to your application -> setting => and add Contact Email and apply save Changes,1,2
+41,App not setup: This app is still in development mode,7,2,0.833333333,Then goto App Review option and make sure this toggle is Yes i added a screen shot,2,2
+42,App not setup: This app is still in development mode,7,3,1,Thank you so much,2,3
+43,Cannot auto reload config,8,1,0.166666667,"when change the config std.conf , logstash cannot reload config automatic , it report error ",0,1
+44,Cannot auto reload config,8,1,0.333333333,Is it Bug?,1,1
+45,Cannot auto reload config,8,1,0.5,Is anyone came up this ISSUE ?,1,1
+46,Cannot auto reload config,8,2,0.666666667,input plugin using stdin?output plugin using stdout,1,2
+47,Cannot auto reload config,8,2,0.833333333,Stain plugin can not be reloaded so you will need to change to another one.,2,2
+48,Cannot auto reload config,8,3,1,thank you very much,2,3
+49,"Why can't Python parse this JSON data?
+",9,1,0.166666667,I have this JSON in a file and i want to convert it.,0,1
+50,"Why can't Python parse this JSON data?
+",9,1,0.333333333,This program raises an exception,1,1
+51,"Why can't Python parse this JSON data?
+",9,1,0.5,How can I parse the JSON and extract its values?,1,1
+52,"Why can't Python parse this JSON data?
+",9,2,0.666666667,Your data is not valid JSON format. ,2,2
+53,"Why can't Python parse this JSON data?
+",9,2,0.833333333,"With data, you can now also find values like so:",2,2
+54,"Why can't Python parse this JSON data?
+",9,2,1,Try those out and see if it starts to make sense,2,2
+55,Why does Google prepend while,10,1,0.166666667,"I would not assume this is to prevent people from doing an eval on it, but all you'd really have to do is replace the while and then you'd be set.",0,1
+56,Why does Google prepend while,10,1,0.333333333,I would not assume the eval prevention is to make sure people write safe JSON parsing code.,1,1
+57,Why does Google prepend while,10,1,0.5,What's going on here?,1,1
+58,Why does Google prepend while,10,2,0.666666667,Making sure the JSON never executes,1,2
+59,Why does Google prepend while,10,2,0.833333333,"Similarly, adding invalid tokens before the JSON, makes sure that it is never executed.",2,2
+60,Why does Google prepend while,10,3,1,"It is helpful, interested",2,3
+61,How i can do it,11,0,0.25,"However, the version of Java that it's picking up is 32-bit, as indicated by where it is coming from, on this line",0,2
+62,How i can do it,11,0,0.5," If it's doesn't work for you, you'll need to upgrade your JDK (to the Java versions - 8 in this case)",2,1
+63,How i can do it,11,0,0.75, You should unlock your network and it would be okay,1,1
+64,How i can do it,11,0,1.0, Thanks for your help,1,3
+65,"""ab""",12,0,1.0,"""cd""",0,3
+66,"""ab""",13,0,1.0,"""cd""",0,3
+67,ab,14,0,1.0,cd,0,3
+68,ab,15,0,1.0,cd,0,3
+69,ab,16,1,1.0,cd,0,3
+70,ab,17,1,1.0,cd,0,3
+71,ab,18,1,1.0,cd,0,3
+72,ab,19,1,1.0,cd,0,3
+73,ab,20,1,1.0,cd,0,3
+74,ab,21,1,1.0,cd,0,3
+75,ab,22,1,1.0,cd,0,3
+76,ab,23,1,1.0,cd,0,3
+77,ab,24,1,1.0,cd,0,3
+78,ab,25,1,1.0,cd,0,3
+79,ab,26,1,1.0,cd,0,3
+80,ab,27,1,1.0,cd,0,3
+81,ab,28,1,1.0,cd,0,3
+82,ab,29,1,1.0,cd,0,3

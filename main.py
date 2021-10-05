@@ -14,23 +14,31 @@ resource_fields = {
 	'title': fields.Integer,
 	'content': fields.String,
 }
-
-class BugReport(Resource):
+class GetAll(Resource):
     def get(self):
         return "Bo sung sau"
-        
-    @marshal_with(resource_fields)
-    def post(self):
+
+class Create(Resource):
+    def get(self):
         args = video_put_args.parse_args()
-        print(args)
+        rfModel = RandomForest.RandomForestModel("Dataset/dataset2.csv")
+        rfModel.Fit()
+        response = rfModel.WriteBug(args.title, args.content)
+        jsonList = []
+        for index, row in response.iterrows():
+            jsonList.append({"id_sentence": row["id_sentence"], 
+            "title":row["title"],
+            "id_bug":row["id_bug"],
+            "id_comment":row["id_comment"],
+            "position":row["position"],
+            "content":row["content"],
+            "preP":row["preP"],
+            "result":row["result"]
+            })
+        return(jsonify(jsonList))
 
-api.add_resource(BugReport, "/last")
-
+api.add_resource(GetAll, "/getall")
+api.add_resource(Create, "/create")
 if __name__ == "__main__":
-    rfModel = RandomForest.RandomForestModel("Dataset/stock_data.csv")
-    rfModel.Fit()
-    rfModel.GetAccuracy()
-    input = rfModel.nlpModel.ConvertRow("NG - nice PNF BY - breakout - need follow thru  ")
-    rfModel.Predict(input)
     app.run(debug=True)
     

@@ -9,6 +9,12 @@ def ConcatDataframe(head, tail):
 
 def GetLabelTraining(data):
     label_training = data.columns.values
+    label_training = np.delete(label_training, 0) 
     label_training = np.delete(label_training, 0)
     label_training = np.delete(label_training, 0)
+    label_training = np.delete(label_training, 0)
+    label_training = np.delete(label_training, 1)
+    label_training = np.delete(label_training, 2)
+    # print("label string: ")
+    # print(len(label_training))
     return label_training
