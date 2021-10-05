@@ -87,3 +87,6 @@ id_sentence,title,id_bug,id_comment,position,content,preP,result
 80,ab,27,1,1.0,cd,0,3
 81,ab,28,1,1.0,cd,0,3
 82,ab,29,1,1.0,cd,0,3
+83,ab fdsf dsfds,30,1,1.0,cd fdsf d sdfsd sdf sdsdf,0,3
+84,ab fdsf dsfds,31,1,0.5,cd fdsf d sdfsd sdf sdsdf,0,3
+85,ab fdsf dsfds,31,1,1.0, asdas sa sad,3,3

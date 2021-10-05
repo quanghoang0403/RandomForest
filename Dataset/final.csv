@@ -1,0 +1,289 @@
+id_sentence,title,id_bug,id_comment,position_sentence,content_sentence,pre_label,result_label
+1,cmake' is not recognised as an internal or external command,1,1,0.125,"I'm trying to run cmake in Visual Studio 10, for esys-particle-win.",0,1
+2,cmake' is not recognised as an internal or external command,1,1,0.25,The commands I'm typing in the administrator command prompt of Visual Studio 2010 are.,1,1
+3,cmake' is not recognised as an internal or external command,1,1,0.375,and I'm getting this error,1,1
+4,cmake' is not recognised as an internal or external command,1,1,0.5,could anyone tell me where I am wrong?,1,1
+5,cmake' is not recognised as an internal or external command,1,2,0.625,The error message means it cannot find cmake,1,2
+6,cmake' is not recognised as an internal or external command,1,2,0.75,You can add its location to your path from the prompt like this:,2,2
+7,cmake' is not recognised as an internal or external command,1,3,0.875,the error message means it cannont find Cmake.,2,2
+8,cmake' is not recognised as an internal or external command,1,3,1,Note that quotes aren't needed in PATH environmental variables on Windows,2,2
+9,CMake command is not recognized,2,1,0.166666667,I have installed CMake and cmake.exe is in,0,1
+10,CMake command is not recognized,2,1,0.333333333,But when I run through a bat file I am getting an error message,1,1
+11,CMake command is not recognized,2,1,0.5,Should I set this path in environment variable,1,1
+12,CMake command is not recognized,2,2,0.666666667,It resolved after adding to environment variable PATH,1,2
+13,CMake command is not recognized,2,2,0.833333333,Was able to resolve the issue by installing (on Windows 10) and running,2,2
+14,.trim() in JavaScript not working in IE,3,1,0.142857143,I tried to apply .trim() to a string in one of my JavaScript programs.,0,1
+15,.trim() in JavaScript not working in IE,3,1,0.285714286,"It's working fine under Mozilla, but an error displays when I try it in IE8.",1,1
+16,.trim() in JavaScript not working in IE,3,1,0.428571429,Does anyone know what is going on here? Is there anyway I can make it work in IE?,1,3
+17,.trim() in JavaScript not working in IE,3,2,0.571428571,Add the following code to add trim functionality to the string.,3,2
+18,.trim() in JavaScript not working in IE,3,3,0.714285714,It looks like that function isn't implemented in IE,2,1
+19,.trim() in JavaScript not working in IE,3,3,0.857142857,"If you're using jQuery, you could use $.trim() instead",1,2
+20,.trim() in JavaScript not working in IE,3,4,1,If you aren't using jQuery you can use the following methods to add trim support to strings:,2,2
+21,uncaught type error javascript,4,1,0.166666667,I want to make a personality test.,0,1
+22,uncaught type error javascript,4,1,0.333333333,"But i can get from questions.json only first questions,when i clicked the next questions button i am facing this error ""Javascript Uncaught TypeError: Cannot read property 'length' of undefined""",1,1
+23,uncaught type error javascript,4,2,0.5,I think you're calling renderQuestion without any parameter.,1,2
+24,uncaught type error javascript,4,2,0.666666667,So data.length might be throwing the error.,2,2
+25,uncaught type error javascript,4,3,0.833333333,please provide the line number of the error as well,2,3
+26,ExecJS and could not find a JavaScript runtime,5,1,0.142857143,I'm trying to use the template and I keep getting an error stating,0,1
+27,ExecJS and could not find a JavaScript runtime,5,1,0.285714286,"Fair enough when I didn't have any installed, but nothing is working.",1,1
+28,ExecJS and could not find a JavaScript runtime,5,1,0.428571429,I could not find a JavaScript runtime.,1,1
+29,ExecJS and could not find a JavaScript runtime,5,2,0.571428571,Just add ExecJS and the Ruby Racer in your gem file and run bundle install after.,1,2
+30,ExecJS and could not find a JavaScript runtime,5,3,0.714285714,I'm on Ubuntu and had similar issues.,2,2
+31,ExecJS and could not find a JavaScript runtime,5,3,0.857142857,Installing Node.js fixed it.,2,2
+32,ExecJS and could not find a JavaScript runtime,5,4,1,This will solve the problem.,2,3
+33,Runtime erro with exit code 6 on online judge,6,1,0.090909091,I am doing my c++ homework on an online judge.,0,1
+34,Runtime erro with exit code 6 on online judge,6,1,0.181818182,There are m strings with a length of n.,1,1
+35,Runtime erro with exit code 6 on online judge,6,1,0.272727273,"I need to find the minimal expression of a new string, and then insert it in an trie tree.",1,1
+36,Runtime erro with exit code 6 on online judge,6,1,0.363636364,"For each string, I need to return the ""positon number"" of the first identical string.",1,1
+37,Runtime erro with exit code 6 on online judge,6,1,0.454545455,"I compiled my code with VS and g++, and runned my program lots of times for testing.",1,1
+38,Runtime erro with exit code 6 on online judge,6,1,0.545454546,It worked perfectly.,1,1
+39,Runtime erro with exit code 6 on online judge,6,1,0.636363636,But when the online judge system returned runtime error,1,1
+40,Runtime erro with exit code 6 on online judge,6,1,0.727272727,It can be caused by new and delete operation.,1,2
+41,Runtime erro with exit code 6 on online judge,6,1,0.818181818,But I still cannot debug my code.,2,1
+42,Runtime erro with exit code 6 on online judge,6,2,0.909090909,"This potentially happens a lot in the main function's loop, hence you may run out of memory.",1,2
+43,Runtime erro with exit code 6 on online judge,6,2,1,"Since this is an online judge platform, I'd recommend coming up with extreme test cases",2,2
+44,"C++ data structure list, erro in my code",7,1,0.142857143,Hello i tried to compile my code but i get acess violation error.,0,1
+45,"C++ data structure list, erro in my code",7,1,0.285714286,Im trying to make an agenda that i can insert values using a list.,1,1
+46,"C++ data structure list, erro in my code",7,1,0.428571429,What is the error in my code?,1,1
+47,"C++ data structure list, erro in my code",7,2,0.571428571,It would be nice to see the actual compiler error to see which line is causing the problem,1,3
+48,"C++ data structure list, erro in my code",7,2,0.714285714,"Without the compiler output, I might guess that the issue is with",3,2
+49,"C++ data structure list, erro in my code",7,2,0.857142857,which should probably be,2,2
+50,"C++ data structure list, erro in my code",7,2,1,"because, at the moment, you are only malloc()ing enough size for a pointer, not for the actual struct.",2,2
+51,"Detect Vector ""out-of-range"" error before action",8,1,0.166666667,Is there a way to detect if my Vector is out-of-range before performing an action?,0,1
+52,"Detect Vector ""out-of-range"" error before action",8,1,0.333333333,But I am getting an out-of-range error.,1,1
+53,"Detect Vector ""out-of-range"" error before action",8,2,0.5,"You need to check if the index is <= the length of the vector, and change the order of your tests.",1,2
+54,"Detect Vector ""out-of-range"" error before action",8,2,0.666666667,"I'm not a Flash guy, but in most C-like languages, it'll look like this:",2,2
+55,"Detect Vector ""out-of-range"" error before action",8,3,0.833333333,You detect if a Vector's index is out of range as follows:,2,2
+56,"Error message ""No exports were found that match the constraint contract name""",9,1,0.142857143,"This morning I faced a problem while opening my Visual Studio solution, and when I tried to run it",0,1
+57,"Error message ""No exports were found that match the constraint contract name""",9,1,0.285714286,No exports were found that match the constraint contract name,1,1
+58,"Error message ""No exports were found that match the constraint contract name""",9,1,0.428571429,How can I fix this problem?,1,3
+59,"Error message ""No exports were found that match the constraint contract name""",9,2,0.571428571,I solved this problem by clearing Visual Studio Component Model Cache.,3,2
+60,"Error message ""No exports were found that match the constraint contract name""",9,2,0.714285714,Just delete or rename this folder:,2,2
+61,"Error message ""No exports were found that match the constraint contract name""",9,3,0.857142857,No need to rename or delete the whole,2,2
+62,"Error message ""No exports were found that match the constraint contract name""",9,3,1,Just rename or delete the file inside the above location.,2,2
+63,Metadata file '.dll' could not be found,10,1,0.142857143,"I am working on a WPF, C# 3.0 project, and I get this error:",0,1
+64,Metadata file '.dll' could not be found,10,1,0.285714286,This is how I reference my usercontrols:,1,1
+65,Metadata file '.dll' could not be found,10,1,0.428571429,It happens after every failed build.,1,1
+66,Metadata file '.dll' could not be found,10,1,0.571428571,"The only way I can get the solution to compile is to comment out all my user controls and re-build the project, and then I uncomment the usercontrols and everything is fine.",1,1
+67,Metadata file '.dll' could not be found,10,1,0.714285714,I have checked build orders and dependencies configurations.,1,1
+68,Metadata file '.dll' could not be found,10,2,0.857142857,I just had the same problem.,1,3
+69,Metadata file '.dll' could not be found,10,2,1,Visual Studio isn't building the project that's being referenced.,3,2
+70,Error type 3 Error: Activity class {} does not exist,11,1,0.125,"I have an IntelliJ Android project, that I successfully imported to Android Studio 0.4.0.",0,1
+71,Error type 3 Error: Activity class {} does not exist,11,1,0.25,It works perfectly if I don't change anything in manifest.,1,1
+72,Error type 3 Error: Activity class {} does not exist,11,1,0.375,"However, when I want to change the launcher activity and run, it fails with this error:",1,1
+73,Error type 3 Error: Activity class {} does not exist,11,2,0.5,"When I click Sync Project with Gradle files, it outputs:The project 'TrackingEng' is not a Gradle-based project",1,1
+74,Error type 3 Error: Activity class {} does not exist,11,2,0.625,I faced a similar problem after refactoring.,1,3
+75,Error type 3 Error: Activity class {} does not exist,11,2,0.75,This is what i did to resolve this issue:,3,2
+76,Error type 3 Error: Activity class {} does not exist,11,2,0.875,And everything worked fine!,2,3
+77,Error type 3 Error: Activity class {} does not exist,11,2,1,I think the key is to restart your IDE.,3,2
+78,Can't use Swift classes inside Objective-C,12,1,0.125,I try to integrate Swift code in my app.My app is written in Objective-C and I added a Swift class.,0,1
+79,Can't use Swift classes inside Objective-C,12,1,0.25,I've done everything described here.,1,1
+80,Can't use Swift classes inside Objective-C,12,1,0.375,"But my problem is that Xcode haven't created the -Swift.h file, only the bridging headers.",1,1
+81,Can't use Swift classes inside Objective-C,12,1,0.5,"So I created it, but it's actually empty. I can use all my ObjC classes in Swift, but I can't do it vice versa.",1,1
+82,Can't use Swift classes inside Objective-C,12,1,0.625,I marked my swift class with @objc but it didn't help.,1,1
+83,Can't use Swift classes inside Objective-C,12,1,0.75,What can I do now?,1,3
+84,Can't use Swift classes inside Objective-C,12,2,0.875,I spent about 4 hours trying to enable Swift in my Xcode Objective-C based project.,3,3
+85,Can't use Swift classes inside Objective-C,12,2,1,"So, I decided to create a new Xcode Objc-based project and finally, I found the right answer!",3,2
+86,C++ dot net error C 3265:cannot declare a managed ' ' in an unmanaged,13,1,0.166666667,error C 3265:cannot declare a managed 'name_1 ' in an unmanaged 'wmain::$unnnamedClass $0x43505982$383$,0,1
+87,C++ dot net error C 3265:cannot declare a managed ' ' in an unmanaged,13,2,0.333333333,"You have a Native struct (power_line_name) with Managed members (name_1, etc...).",1,2
+88,C++ dot net error C 3265:cannot declare a managed ' ' in an unmanaged,13,2,0.5,In order to do this the Native struct must use the gcroot<> or auto_gcroot<> template.,2,2
+89,C++ dot net error C 3265:cannot declare a managed ' ' in an unmanaged,13,2,0.666666667,An alternative approach which would not need the gcroot stuff would be to make the struct managed like this:,2,2
+90,C++ dot net error C 3265:cannot declare a managed ' ' in an unmanaged,13,2,0.833333333,"Later, don't use ->ToCharArray()",2,2
+91,Cannot use object of type stdClass as array?,14,1,0.125,I get a strange error using json_decode().,0,1
+92,Cannot use object of type stdClass as array?,14,1,0.25,"It decode correctly the data (I saw it using print_r), but when I try to access to info inside the array I get:",1,1
+93,Cannot use object of type stdClass as array?,14,1,0.375,I only tried to do: $result['context'] where $result has the data returned by json_decode(),1,1
+94,Cannot use object of type stdClass as array?,14,1,0.5,How can I read values inside this array?,1,1
+95,Cannot use object of type stdClass as array?,14,2,0.625,Use the second parameter of json_decode to make it return an array:,1,2
+96,Cannot use object of type stdClass as array?,14,3,0.75,The function json_decode() returns an object by default.,2,2
+97,Cannot use object of type stdClass as array?,14,3,0.875,You can access the data like this:,2,2
+98,Cannot use object of type stdClass as array?,14,3,1,If you have identifiers like from-date (the hyphen would cause a PHP error when using the above method) you have to write:,2,2
+99,"npm install error - MSB3428: Could not load the Visual C++ component ""VCBuild.exe"" ",15,1,0.125,I'm trying to use the,0,1
+100,"npm install error - MSB3428: Could not load the Visual C++ component ""VCBuild.exe"" ",15,1,0.25,I'm not sure how to fix this and I have gotten this on two different npm module installs.,1,1
+101,"npm install error - MSB3428: Could not load the Visual C++ component ""VCBuild.exe"" ",15,1,0.375,I can install other modules however.,1,1
+102,"npm install error - MSB3428: Could not load the Visual C++ component ""VCBuild.exe"" ",15,1,0.5,What I have tried: Install whatever dependencies it needs.,1,1
+103,"npm install error - MSB3428: Could not load the Visual C++ component ""VCBuild.exe"" ",15,1,0.625,I also get an error trying do:,1,1
+104,"npm install error - MSB3428: Could not load the Visual C++ component ""VCBuild.exe"" ",15,2,0.75,Try this from cmd line as Administrator,1,1
+105,"npm install error - MSB3428: Could not load the Visual C++ component ""VCBuild.exe"" ",15,2,0.875,"optional part, if you need to use a proxy:",1,2
+106,"npm install error - MSB3428: Could not load the Visual C++ component ""VCBuild.exe"" ",15,2,1,"No need for Visual Studio, this has what you need.",2,2
+107,function strtol in C out of range... or not,16,1,0.166666667,"I try to read a number from a string with strtol() and it returns the LONG_MAX number which is supposed to return when the number is out of range, but my number is not that big",0,1
+108,function strtol in C out of range... or not,16,2,0.333333333,"According to the man page for strtol, the '0' argument you've given means 'use you best judgement', which in this case is decimal.",1,2
+109,function strtol in C out of range... or not,16,2,0.5,"If you want it to convert a binary number, as the 'Needed result' you've specified suggests, don't use '0', use '2'.",2,2
+110,function strtol in C out of range... or not,16,3,0.666666667,probably because you pass in base 0,2,2
+111,function strtol in C out of range... or not,16,3,0.833333333,Apparently base 0 is a special value for the strtol function:,2,2
+112,function strtol in C out of range... or not,16,3,1,"So I guess you can use 0, sorry for doubting you",2,2
+113,Warning - Integer operation result is out of range in c,17,1,0.125,"When compiling the code, I receive the following warning Warning: "" #61-D: integer operation result is out of range"".",0,1
+114,Warning - Integer operation result is out of range in c,17,1,0.25,I would like to understand what to change in order to avoid the warning.,1,1
+115,Warning - Integer operation result is out of range in c,17,1,0.375,Thank you in advance!,1,3
+116,Warning - Integer operation result is out of range in c,17,2,0.5,"Due to integer promotion rules, the inner expression is treated as signed int",3,2
+117,Warning - Integer operation result is out of range in c,17,2,0.625,"which is a negative signed integer, thus resulting in the warning.",2,2
+118,Warning - Integer operation result is out of range in c,17,2,0.75,"To fix, you can force the shifts to be unsigned by appending 'U' to the hex constants",2,2
+119,Warning - Integer operation result is out of range in c,17,3,0.875,"The compiler overflow warning is correct, because the expression 1<<31 represents a signed int",2,2
+120,Warning - Integer operation result is out of range in c,17,3,1,"To avoid the warning, explicitly define the constant 0x1 as an unsigned value using the U postfix.",2,2
+121,Numerical result out of range semctl c,18,1,0.142857143,I am trying to create a program that will have synchronization but I am running into an issue where I am creating a set of semaphores with a value of 3 for size.,0,1
+122,Numerical result out of range semctl c,18,1,0.285714286,I am getting the numerical result out of range strerror when trying to execute the semctl to set the values of the semaphore set to 0.,1,1
+123,Numerical result out of range semctl c,18,1,0.428571429,I don't understand what is causing this issue.,1,1
+124,Numerical result out of range semctl c,18,1,0.571428571,Here is the code that it is generating the error from:,1,3
+125,Numerical result out of range semctl c,18,2,0.714285714,arg members have not been initialised nor assigned any value.,3,2
+126,Numerical result out of range semctl c,18,2,0.857142857,So they contain random/junk values.,2,2
+127,Numerical result out of range semctl c,18,2,1,Need to set it like so:,2,2
+128,"Throw ""out of range"" in matlab",19,1,0.125,"I have a case where I want to throw an out of range exception in matlab, but also give the reason to why the vector goes out of range (bad backward compatibility).",0,1
+129,"Throw ""out of range"" in matlab",19,1,0.25,It is of course possible to have some kind of fprintf()... error('out of range').,1,1
+130,"Throw ""out of range"" in matlab",19,1,0.375,"However, it feels like it may be good to go the proper way here, as",1,1
+131,"Throw ""out of range"" in matlab",19,1,0.5,"How to create err?; And also: What is the identifier for ""out of range"" called in matlab?",1,1
+132,"Throw ""out of range"" in matlab",19,1,0.625,The reason that the error message is different is because for the fprintf case the out of range should not be passed with only a comment.,1,1
+133,"Throw ""out of range"" in matlab",19,2,0.75,"If you would like to add additional information to the error you're throwing, you can do it the following way:",1,2
+134,"Throw ""out of range"" in matlab",19,2,0.875,"Of course, you can make error handling more involved by adding e.g. switch/case statements with error identifiers",2,2
+135,"Throw ""out of range"" in matlab",19,3,1,"As for checking the identifier, why not just throw the error yourself and inspect the me object (although I think me is a bad name so I'm going to use err instead):",2,2
+136,"Python, tuple index out of range",20,1,0.166666667,"I want to display an image in my root window, but it says tuple index out of range",0,1
+137,"Python, tuple index out of range",20,1,0.333333333,Do you know what's wrong?,1,1
+138,"Python, tuple index out of range",20,2,0.5,"In order to make your example work as intended, you must specify the coordinates where your image is placed",1,2
+139,"Python, tuple index out of range",20,2,0.666666667,keep in mind that such coordinates refer to the center of your image.,2,2
+140,"Python, tuple index out of range",20,1,0.833333333,"About your example, you could do something like this:",2,2
+141,"Python, tuple index out of range",20,2,1,create_image required position as first argument,2,2
+142,C - Array is out of Range,21,1,0.142857143,Can someone explain why its out of range?,0,1
+143,C - Array is out of Range,21,2,0.285714286,"Arrays indices in C start at 0, so your oxen and yaks arrays range from 0 to SIZE-1.",1,2
+144,C - Array is out of Range,21,2,0.428571429,"You're outside the allowed boundaries, as the compiler rightly warns you about.",2,2
+145,C - Array is out of Range,21,3,0.571428571,"Because C is zero-indexed, oxen[SIZE] is really trying to deference a sixth element that does not exist.",2,2
+146,C - Array is out of Range,21,3,0.714285714,"Use the index [SIZE-1], instead.",2,2
+147,C - Array is out of Range,21,4,0.857142857,because c Language can access the elements of array by their indexes thus index start from 0 to n-1 where n is a number of elements in your array so in your case u can access elements from 0 to 4 indexes,2,2
+148,C - Array is out of Range,21,4,1,if u deal with array of characters maybe this works because of null terminator '\0' also u may not get an errors and get random results because its compiler dependent,2,2
+149,I get a list out of range,22,1,0.166666667,I get a list out of range,0,1
+150,I get a list out of range,22,1,0.333333333,What have I done wrong?,1,1
+151,I get a list out of range,22,2,0.5,Consider this simple example:,1,2
+152,I get a list out of range,22,2,0.666666667,We can also use list comprehension to achieve the same thing:,2,2
+153,I get a list out of range,22,3,0.833333333,Since self._rutenett is an empty list of lists it is self._rutenett[i][j] is out of range,2,2
+154,I get a list out of range,22,3,1,"Uses self._rutenett.append() to add non-existent members to lists, (note that you can't have a sparse list",2,2
+155,"vector is out of range,but why?",23,1,0.142857143,It says my vector is out of range for ArrayD.,0,1
+156,"vector is out of range,but why?",23,1,0.285714286,But I do not understand why.,1,1
+157,"vector is out of range,but why?",23,1,0.428571429,Everything else works.,1,1
+158,"vector is out of range,but why?",23,1,0.571428571,Is says that the vector is out of range after double deez.,1,1
+159,"vector is out of range,but why?",23,1,0.714285714,"Therefore, it will not ascend fully.",1,1
+160,"vector is out of range,but why?",23,2,0.857142857,"Here, q starts at zero, so you are attempting to access index [-1].",1,2
+161,"vector is out of range,but why?",23,2,1,"When iterating over ArrayP, you correctly do",2,2
+162,How to resolve this IndexError out of range?,24,1,0.125,Why am I getting this list index out of range error?,0,1
+163,How to resolve this IndexError out of range?,24,1,0.25,And how can I fix it?,1,1
+164,How to resolve this IndexError out of range?,24,1,0.375,"I tried entering into after the else in the logic, but the result was the same.",1,1
+165,How to resolve this IndexError out of range?,24,1,0.5,but the result was the same,1,1
+166,How to resolve this IndexError out of range?,24,2,0.625,"You've initialized an array, which is an object.",1,2
+167,How to resolve this IndexError out of range?,24,2,0.75,"When you ask if the variable is null, that will always be false.",2,2
+168,How to resolve this IndexError out of range?,24,2,0.875,"It's not null, it's an object.",2,2
+169,How to resolve this IndexError out of range?,24,2,1,The error message you are getting is because int_list_repost[0] will error out if you have an empty array.,2,2
+170,List Index out of range explanation,25,1,0.166666667,I don't understand how the index can be out of range,0,1
+171,List Index out of range explanation,25,2,0.333333333,"Use that one to debug your application, i.e. whenever it has a bug.",1,2
+172,List Index out of range explanation,25,2,0.5,"Whenever an exception occurs, it will stop and you can look at all variables",2,2
+173,List Index out of range explanation,25,2,0.666666667,"You can also put a breakpoint with a condition, like so:",2,2
+174,List Index out of range explanation,25,2,0.833333333,and from there step through your code line by line,2,2
+177,Can not export a project Android in Eclipse to archive file after remove folder .svn,26,1,0.166666667,I have a project Android in Eclipse + SVN server.,0,1
+178,Can not export a project Android in Eclipse to archive file after remove folder .svn,26,1,0.333333333,After i delete some files in .svn or .svn folder.,1,1
+179,Can not export a project Android in Eclipse to archive file after remove folder .svn,26,1,0.5,"I can not export the projet to Archive file. The error notification: ""cann't file the file * in the folder .svn ...""",1,1
+180,Can not export a project Android in Eclipse to archive file after remove folder .svn,26,2,0.666666667,"You should start by right clicking your project, choosing the team menu and then disconnect.",1,2
+181,Can not export a project Android in Eclipse to archive file after remove folder .svn,26,2,0.833333333,After you've done that remove those folders and try your export.,2,2
+182,Can not export a project Android in Eclipse to archive file after remove folder .svn,26,3,1,Thanks for your help,2,3
+183,"Can not start Eclipse code, return exit code 13",27,1,0.166666667,"After first trying to start Eclipse without any parameters to specify the Java VM, I got an error message saying it couldn't find a Java VM called javaw.exe inside the Eclipse folder, so I found where Java was installed and specified that location as the parameter in the shortcut's target. ",0,1
+184,"Can not start Eclipse code, return exit code 14",27,1,0.333333333,"Now I get a different error, Java was started but returned exit code=13.",1,1
+185,"Can not start Eclipse code, return exit code 15",27,1,0.5,"If anyone knows how to confirm that my Eclipse and Java are 64-bit, that'd be appreciated.",1,1
+186,"Can not start Eclipse code, return exit code 16",27,2,0.666666667,"However, the version of Java that it's picking up is 32-bit, as indicated by where it is coming from, on this line:",1,2
+187,"Can not start Eclipse code, return exit code 17",27,2,0.833333333,"If it's doesn't work for you, you'll need to upgrade your JDK (to the Java versions - 8 in this case).",2,2
+188,"Can not start Eclipse code, return exit code 18",27,3,1,It really works!!!,2,3
+189,Windows 10 won't do a restart,28,1,0.166666667,I installed Windows 10 as an upgrade and ever since my computer will not do a restart.,0,1
+190,Windows 10 won't do a restart,28,1,0.333333333,"Whenever I try a restart, the computer idles down then just hangs there with fans running and blank screen. ",1,1
+191,Windows 10 won't do a restart,28,1,0.5,"The only way I can restart it is to press the reset button on the front panel after it idles down, or shut Windows down and power up from scratch.",1,1
+192,Windows 10 won't do a restart,28,2,0.666666667,"Go to ""Power and Sleep"" settings. Tell the computer to Never sleep.",1,2
+193,Windows 10 won't do a restart,28,2,0.833333333,Shut down computer and reboot.,2,2
+194,Windows 10 won't do a restart,28,3,1,Success at last!!,2,3
+195,Keyboard Won�t Type,29,1,0.166666667,I can not type anything with your keyboard?,0,1
+196,Keyboard Won�t Type,29,1,0.333333333,That is really bothersome and frustrating.,1,3
+197,Keyboard Won�t Type,29,2,0.5,"Once your keyboard is not working, you can firstly restart your computer.",3,2
+198,Keyboard Won�t Type,29,2,0.666666667,A simple restart can always solve computer woes.,2,2
+199,Keyboard Won�t Type,29,2,0.833333333,"Without a keyboard, you can use your mouse to restart your computer.",2,2
+200,Keyboard Won�t Type,29,3,1,okee thank you so much,2,3
+201,Mouse Left-Click Button Not Working,30,1,0.166666667,"My cursor can move, but can't click on anything but the program I am on.",0,1
+202,Mouse Left-Click Button Not Working,30,1,0.333333333,"Not on the toolbar, not on the Windows logo, not on any program, just Google Chrome right now. ",1,1
+203,Mouse Left-Click Button Not Working,30,2,0.5,"Immediately after turning on the computer, or restarting it (usually after you hear your computer beep), tap the F8 key, repeatedly, in 1 second intervals.",1,2
+204,Mouse Left-Click Button Not Working,30,2,0.666666667,"Next the ""Advanced Boot Options"" menu will appear.",2,2
+205,Mouse Left-Click Button Not Working,30,2,0.833333333,"In the ""Advanced Boot Options"" menu use the arrow keys to select ""Safe Mode"" or ""Safe Mode with Networking"" and press ENTER.",2,2
+206,Mouse Left-Click Button Not Working,30,3,1,"This worked for me, thanks",2,3
+207,Can not set a Config value in Laravel 8,31,1,0.166666667,I'm trying to save site setting variables into the config/settings.php file.,0,1
+208,Can not set a Config value in Laravel 9,31,1,0.333333333,I can get those values but I'm unable to set one using,1,1
+209,Can not set a Config value in Laravel 10,31,1,0.5,Is there any alternative to achieve what I want?,1,1
+210,Can not set a Config value in Laravel 11,31,2,0.666666667,Build yourself a custom helper for a settings wrapper so you can query it like you query the config.,1,2
+211,Can not set a Config value in Laravel 12,31,2,0.833333333,Migrate yourself a settings table with columns that you wish to edit,2,2
+212,Can not set a Config value in Laravel 13,31,3,1,It worked as expected,2,3
+213,App not setup: This app is still in development mode,32,1,0.166666667,"when I try to login, I go to the Facebook app, it asks me to login which I do and then I get report message",0,1
+214,App not setup: This app is still in development mode,32,1,0.333333333,Any help is much appreciated.,1,3
+215,App not setup: This app is still in development mode,32,1,0.5,I am using SeattleClouds and this happens on both iOS and Android.,3,1
+216,App not setup: This app is still in development mode,32,2,0.666666667,Go to your application -> setting => and add Contact Email and apply save Changes,1,2
+217,App not setup: This app is still in development mode,32,2,0.833333333,Then goto App Review option and make sure this toggle is Yes i added a screen shot,2,2
+218,App not setup: This app is still in development mode,32,3,1,Thank you so much,2,3
+219,Cannot auto reload config,33,1,0.166666667,"when change the config std.conf , logstash cannot reload config automatic , it report error ",0,1
+220,Cannot auto reload config,33,1,0.333333333,Is it Bug?,1,1
+221,Cannot auto reload config,33,1,0.5,Is anyone came up this ISSUE ?,1,1
+222,Cannot auto reload config,33,2,0.666666667,input plugin using stdin?output plugin using stdout,1,2
+223,Cannot auto reload config,33,2,0.833333333,Stain plugin can not be reloaded so you will need to change to another one.,2,2
+224,Cannot auto reload config,33,3,1,thank you very much,2,3
+225,"Why can't Python parse this JSON data?
+",34,1,0.166666667,I have this JSON in a file and i want to convert it.,0,1
+226,"Why can't Python parse this JSON data?
+",34,1,0.333333333,This program raises an exception,1,1
+227,"Why can't Python parse this JSON data?
+",34,1,0.5,How can I parse the JSON and extract its values?,1,1
+228,"Why can't Python parse this JSON data?
+",34,2,0.666666667,Your data is not valid JSON format. ,2,2
+229,"Why can't Python parse this JSON data?
+",34,2,0.833333333,"With data, you can now also find values like so:",2,2
+230,"Why can't Python parse this JSON data?
+",34,2,1,Try those out and see if it starts to make sense,2,2
+231,Why does Google prepend while,35,1,0.166666667,"I would not assume this is to prevent people from doing an eval on it, but all you'd really have to do is replace the while and then you'd be set.",0,1
+232,Why does Google prepend while,35,1,0.333333333,I would not assume the eval prevention is to make sure people write safe JSON parsing code.,1,1
+233,Why does Google prepend while,35,1,0.5,What's going on here?,1,1
+234,Why does Google prepend while,35,2,0.666666667,Making sure the JSON never executes,1,2
+235,Why does Google prepend while,35,2,0.833333333,"Similarly, adding invalid tokens before the JSON, makes sure that it is never executed.",2,2
+236,Why does Google prepend while,35,3,1,"It is helpful, interested",2,3
+237,Discord Bot Not Playing Audio discord.js v13,36,1,0.166666667,I'm trying to make a discord bot that can play mp3 files in a voice channel.. but it doesn't seem to work as intended,0,1
+238,Discord Bot Not Playing Audio discord.js v13,36,1,0.333333333,"It successfully joined the voice channel, but it does not play any sound at all",1,1
+239,Discord Bot Not Playing Audio discord.js v13,36,1,0.5,Did I miss anything?,1,3
+240,Discord Bot Not Playing Audio discord.js v13,36,2,0.666666667,Please edit to add additional details that will help others understand how this addresses the question asked.,3,3
+241,Discord Bot Not Playing Audio discord.js v13,36,2,0.833333333,Changed const client = new Client({ intents: [Intents.FLAGS.GUILDS] }),3,2
+242,Discord Bot Not Playing Audio discord.js v13,36,3,1,It worked as expected,2,3
+243,Uncaught error using async function with ngrok,37,1,0.166666667,I get an uncaught error on the last line,0,1
+244,Uncaught error using async function with ngrok,37,1,0.333333333,What am I doing wrong?,1,3
+245,Uncaught error using async function with ngrok,37,1,0.5,the url variable in both are showing string.,3,1
+246,Uncaught error using async function with ngrok,37,2,0.666666667,You don't call it with the await keyword.,1,2
+247,Uncaught error using async function with ngrok,37,2,0.833333333,Rewrite your code as follows,2,2
+248,Uncaught error using async function with ngrok,37,3,1,"Now it doesn't raise any errors, so thank you",2,3
+249,Error: A cross-origin error was thrown. React doesn't have access to the actual error object in development.,38,1,0.166666667,I've been trying to parse the data from the student_learn field in firestore and map it to jsx components but i get a cors-origin error here is a screenshot of the collection i'm trying to fetch from.,0,1
+250,Error: A cross-origin error was thrown. React doesn't have access to the actual error object in development.,38,2,0.333333333,Open Dev tools,1,2
+251,Error: A cross-origin error was thrown. React doesn't have access to the actual error object in development.,38,2,0.5,Go to Application section,2,2
+252,Error: A cross-origin error was thrown. React doesn't have access to the actual error object in development.,38,2,0.666666667,Clear the local storage by right clicking it,2,2
+253,Error: A cross-origin error was thrown. React doesn't have access to the actual error object in development.,38,3,0.833333333,The only way to fix CORS is by setting the correct header on the server that you're fetching,2,2
+254,Error: A cross-origin error was thrown. React doesn't have access to the actual error object in development.,38,1,1,"Yeah, I got it!",2,3
+255,Studentslearn.map() is not a function,39,1,0.166666667,I tried mapping data with react from an array nested in a firestore collection but i get array.map() is not a function.,0,1
+256,Studentslearn.map() is not a function,39,1,0.333333333,This is how i tried mapping from the the collection,1,1
+257,Studentslearn.map() is not a function,39,1,0.5,Where courseinfo is the state storing returned data from firebase,1,1
+258,Studentslearn.map() is not a function,39,2,0.666666667,I believe that you should parse the courseinfo.students_learn first because from what I saw it is a string.,2,2
+259,Studentslearn.map() is not a function,39,1,0.833333333,"Aw, it not work!",2,3
+260,Studentslearn.map() is not a function,39,2,1,You must parse in next sentence.,3,2
+261,React js: not able to write this in react class componet,40,1,0.166666667,I am able to multiple values passed from multiple forms to this setDataState in functional componet I want the same in class componet but this syntax is not working,0,1
+262,React js: not able to write this in react class componet,40,1,0.333333333,This changes every text field that has changehandler,1,1
+263,React js: not able to write this in react class componet,40,2,0.5,Provide more code. you asked just for setting state.,1,3
+264,React js: not able to write this in react class componet,40,3,0.666666667,Use a value={this.state.<INPUT_NAME>} for each input,3,2
+265,React js: not able to write this in react class componet,40,1,0.833333333,i have posted entire code now,2,3
+266,React js: not able to write this in react class componet,40,2,1,Input values nested in this.state.allValues.,2,3
+267,Can't get specific value from an object,41,1,0.166666667,I can't reach a specific value in this object when I call it different functions it comes always undefined.,0,1
+268,Can't get specific value from an object,41,1,0.333333333,Here is the object that is in array above on the code.,1,1
+269,Can't get specific value from an object,41,1,0.5,I want here to reach Currency Name and ForexBuying at the same time.,1,1
+270,Can't get specific value from an object,41,2,0.666666667,"Try console.log(Object.keys(config)), or even console.log(JSON.stringify(config)) and you will see the keys, or the state of the object at the time you called console.log.",1,2
+271,Can't get specific value from an object,41,2,0.833333333,Solution is using the stringified output as input to parsing the JSON,2,2
+272,Can't get specific value from an object,41,3,1,Hope its useful to you.,2,3
+273,React - problem in rendering array of components,42,1,0.166666667,I wanted to insert 9 components in Lottery components but nothing shows up.,0,1
+274,React - problem in rendering array of components,42,1,0.333333333,Can someone just explain to me why a relationship like this doesn't work in React?,1,1
+275,React - problem in rendering array of components,42,2,0.5,Init i in the for loop with a 0 - i = 0,1,2
+276,React - problem in rendering array of components,42,2,0.666666667,Push the circles into the row - circlesrow.push(<Circle />),2,2
+277,React - problem in rendering array of components,42,2,0.833333333,Call the function - {circles()},2,2
+278,React - problem in rendering array of components,42,3,1,Thanks for helping!,2,3
+279,MongoServerError: Cannot create field 'count' in element,43,1,0.166666667,When the database matches the below value then I want to increase the count by 1.,0,1
+280,MongoServerError: Cannot create field 'count' in element,43,1,0.333333333,But right now I'm getting the following error while doing so.,1,1
+281,MongoServerError: Cannot create field 'count' in element,43,1,0.5,Kindly help me with the same,1,3
+282,MongoServerError: Cannot create field 'count' in element,43,2,0.666666667,"Since userclick is an array, you will need to use an array operator for updating just the one element.",3,2
+283,MongoServerError: Cannot create field 'count' in element,43,2,0.833333333,"n this case, since the query uniquely identifies one element, you can use the $ positional operator",2,2
+284,MongoServerError: Cannot create field 'count' in element,43,3,1,You can set default value of count to zero,2,2
